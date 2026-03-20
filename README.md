@@ -1,8 +1,8 @@
 # Flask Azure DevOps Deployment
 
-This repository contains a Flask web application that is deployed to Azure App Service using an Azure DevOps YAML pipeline.
+This repository contains a Flask web application that is deployed to code base azure App Service using an Azure DevOps YAML pipeline.
 
-## 🚀 Project Overview
+##  Project Overview
 
 - 🐍 Backend: Flask (Python)
 - ☁️ Cloud Platform: Azure App Service
@@ -11,8 +11,6 @@ This repository contains a Flask web application that is deployed to Azure App S
 The project demonstrates how to automate the deployment of a Flask application using a YAML-based pipeline in Azure DevOps.
 
 ## 📂 Project Structure
-
-
 .
 ├── app.py
 ├── requirements.txt
