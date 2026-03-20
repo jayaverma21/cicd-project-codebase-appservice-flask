@@ -27,12 +27,16 @@ This project demonstrates how to deploy a Flask web application to code base Azu
 ```bash
 pip install -r requirements.txt
 
+---
+
 # Pipeline Explanation
 + The Azure DevOps pipeline (azure-pipelines.yml) performs the following steps:
 + Setsup Python Environment: Uses a specified Python version on the build agent.
 + Installs Dependencies: Creates a virtual environment and installs required packages.
 + Archives Application: Compresses the project files into a ZIP file.
 + Publishes Artifact: Stores the ZIP file as a build artifact for deployment.
+
+---
 
 # Deployment Type
 
